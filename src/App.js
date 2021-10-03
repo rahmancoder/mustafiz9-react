@@ -23,6 +23,9 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
           <Route path="/home">
             <Home></Home>
           </Route>
@@ -32,7 +35,7 @@ function App() {
           <Route path="/services">
             <Services></Services>
           </Route>
-          <Route path="/notfound">
+          <Route path="*">
             <NotFound></NotFound>
           </Route>
 
