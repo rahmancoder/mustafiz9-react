@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand href="/home"><i class="fas fa-laptop-code"></i> E-Learning with Mustafiz</Navbar.Brand>
                     <Nav className="me-5 p-2 text-center">
-                        <Link className="m-2 text-decoration-none" to="/home">Home</Link>
+                        <Button className="bg-warning"><Link className="m-2 text-decoration-none" to="/home">Home</Link> </Button>
                         <Link className="m-2 text-decoration-none" to="/about">About</Link>
                         <Link className="m-2 text-decoration-none" to="/services">Services</Link>
                         <Link className="m-2 text-decoration-none" to="/userchart">User Chart</Link>
