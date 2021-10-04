@@ -3,6 +3,7 @@ import About from '../About/About';
 import PopularVideos from '../PopularVideos/PopularVideos';
 import Services from '../Services/Services';
 import SliderVideo from '../SliderVideo/SliderVideo';
+import MyChart from '../MyChart/MyChart';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             {/* <About></About>
             <Services></Services> */}
             {/* <SliderVideo></SliderVideo> */}
+            {/* <MyChart></MyChart> */}
             <PopularVideos></PopularVideos>
 
 

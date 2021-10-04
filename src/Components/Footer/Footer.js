@@ -10,10 +10,10 @@ const Footer = () => {
                 </div>
                 <div className="mt-4">
                     <h4>CONTACT US</h4>
-                    <p>EMAIL:sayhemrahman@gmail.com</p>
-                    <p>Phone:sayhemrahman@gmail.com</p>
-                    <p>Address:sayhemrahman@gmail.com</p>
-                    <p>Fax:sayhemrahman@gmail.com</p>
+                    <p><i class="far fa-envelope-open"></i> EMAIL:sayhemrahman@gmail.com</p>
+                    <p><i class="fas fa-mobile-alt"></i> Phone:+8801871414746</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address:Dhaka, Bangladesh</p>
+                    <p><i class="fas fa-fax"></i> Fax:www.sayhemrahman.com</p>
                 </div>
                 <div className="mt-4">
                     <h4>INFORMATION</h4>

@@ -14,6 +14,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import MyChart from './Components/MyChart/MyChart';
 
 function App() {
   return (
@@ -35,9 +36,14 @@ function App() {
           <Route path="/services">
             <Services></Services>
           </Route>
+          <Route path="/userchart">
+            <MyChart></MyChart>
+          </Route>
+
           <Route path="*">
             <NotFound></NotFound>
           </Route>
+
 
         </Switch>
 
