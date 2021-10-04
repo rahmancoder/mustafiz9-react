@@ -28,51 +28,20 @@ const Services = () => {
                             key={mustafiz.index}
                             mustafiz={mustafiz}
 
-
-
-
                         ></Allcourses>
 
                     )
                 }
 
 
-                {/* Passing props to PopularService component */}
 
-                {/* {
-                    allcourse.map(mustafiz =>
-                        <PopularService
-                            key={mustafiz.index}
-                            mustafiz={mustafiz}
-
-
-
-
-                        ></PopularService>
-
-                    )
-                } */}
 
             </div>
 
 
 
 
-            {/* <div>
-                {
-                    allcourse.map(mustafiz =>
-                        <PopularService
-                            key={mustafiz.index}
-                            mustafiz={mustafiz}
 
-
-
-
-                        ></PopularService>
-
-                    )
-                }
-            </div> */}
 
         </div>
     );
