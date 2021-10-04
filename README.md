@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# E-Learn with Mustafiz (Website Name)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Code Link: https://github.com/ProgrammingHeroWC4/review-website-rahmancoder
+# Live Site Link: https://festive-panini-94bebf.netlify.app/
 
-## Available Scripts
+## Description About This Project and Website--
 
-In the project directory, you can run:
+# React Routing Used (React-router-dom)
+# React Bootstrap Used  (React bootstrap)
+# Rechart Used     (for chart Option used Rechart )
+# Icon Used from Font Awesome ( basic icons)
+# Images added from freepik   (freepik)
 
+
+
+# About Application
+#  All Routes
+/            == for root
+/home        == for home
+/about       == for about
+/services    == for services
+/userchart   == for userchart
+/questions   == for questions (FAQ)
+
+/*           == for all other cases
+
+# All Total Comoponents Here-  (17 Component) 
+1. About
+2. Accordianhome
+3. Allcourses
+4. Backgroundhome
+5. Contenthome
+6. Footer
+7. Header
+8. Home
+9. Instructor
+10. Mychart
+11. NotFound
+12. PopularService
+13. PopularVideos
+14. SelectService
+15. Services
+16. Singleinstructor
+17. SliderVIdeo    (Not used for time )
+
+## Three Custom JSON file (Created by MD Mustafizur Rahman)
+
+1. mustafizeducation.json
+2. selectedservices.json
+3. instructor.json
+
+
+## Fetching
+1.  Component Services fetching data from  mustafizeducation.json
+2.  Component instructor fetching data from  instructor.json
+3.  Component PopularService fetching data from  selectedservices.json
+
+
+
+### ABout Our Website Description-
+
+Hey, This Company is 
+* Mainly for Educational Purpose. Basic Engineering Topics will be covered. 
+* Both Theoretical and Practical Knowledge will be discussed parallelly. We will try to deep down in Every topics. If you guys have any problem please let me know through comments or email and share your idea ,how you guys are benefited after watching the video lecture. Thank you. Here, 
+* Computer Science and Engineering Topics and Electrical Engineering Topics also be Published regularly. 
+
+
+
+
+
+
+
+## For Continuous runing and deploying our projects we need these two command
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
