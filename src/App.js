@@ -15,6 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import MyChart from './Components/MyChart/MyChart';
+import Accordianhome from './Components/Accordianhome/Accordianhome';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path="/userchart">
             <MyChart></MyChart>
+          </Route>
+          <Route path="/questions">
+            <Accordianhome></Accordianhome>
           </Route>
 
           <Route path="*">
