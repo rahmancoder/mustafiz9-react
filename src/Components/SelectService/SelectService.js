@@ -1,12 +1,14 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 
-const Allcourses = (props) => {
+const SelectService = (props) => {
 
-    console.log(props.mustafiz);
+    // console.log(props.mustafiz);
     const { picture, course_name, price, course_instructor, about } = props.mustafiz || {};
+
     return (
-        <div className="col-md-4 mt-4 ">
+
+        <div className="col-md-4 mt-4">
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={picture} />
                 <Card.Body>
@@ -21,8 +23,9 @@ const Allcourses = (props) => {
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
             </Card>
+
         </div>
     );
 };
 
-export default Allcourses;
+export default SelectService;

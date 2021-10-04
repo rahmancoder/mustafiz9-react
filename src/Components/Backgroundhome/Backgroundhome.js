@@ -11,7 +11,7 @@ const Backgroundhome = () => {
                 <img className="logobackground w-100" src={logobackground} alt="" />
             </div>
             <div className="col-md-6 mt-5 text-success">
-                <p className="text-monospace">
+                <p className="text-monospace text-primary">
 
                     Welcome to Our Community!!
                     We are Offer you Instant help at any time about your Study problem.

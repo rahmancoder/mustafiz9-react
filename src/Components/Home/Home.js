@@ -7,18 +7,16 @@ import MyChart from '../MyChart/MyChart';
 import Accordianhome from '../Accordianhome/Accordianhome';
 import Backgroundhome from '../Backgroundhome/Backgroundhome';
 import PopularService from '../PopularService/PopularService';
+import SelectService from '../SelectService/SelectService';
 
 const Home = () => {
     return (
         <div className="m-5">
-            <h1 className="font-weight-bold">This is Home Components</h1>
-            <blockquote>
+            <h1 className="font-weight-bold text-warning"> Let's Learn and Explore </h1>
+            <h2 className="text-secondary mb-5">    <blockquote>
+                The three C’s are very important in these kinds of jobs. Firstly, it’s Concentration. The second ‘C’ is Calm. And the third ‘C’ is Control. When you lose control in competition, you are in danger.
 
-
-                For people who work at the top end under pressure, the three C’s are very important in these kinds of jobs. Firstly, it’s Concentration. The second ‘C’ is Calm. And the third ‘C’ is Control. When you lose control in competition, you are in danger.
-
-
-            </blockquote>
+            </blockquote></h2>
 
             <Backgroundhome></Backgroundhome>
             {/* <About></About>
@@ -26,10 +24,13 @@ const Home = () => {
             {/* <SliderVideo></SliderVideo> */}
             {/* <MyChart></MyChart> */}
 
+            <h1> Our  Popular Services </h1>
             <PopularService></PopularService>
 
             <PopularVideos></PopularVideos>
 
+
+            <h1> FAQ - Frequently Ask Questions </h1>
             <Accordianhome></Accordianhome>
 
 
