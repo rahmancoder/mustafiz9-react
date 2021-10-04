@@ -6,6 +6,7 @@ import SliderVideo from '../SliderVideo/SliderVideo';
 import MyChart from '../MyChart/MyChart';
 import Accordianhome from '../Accordianhome/Accordianhome';
 import Backgroundhome from '../Backgroundhome/Backgroundhome';
+import PopularService from '../PopularService/PopularService';
 
 const Home = () => {
     return (
@@ -24,6 +25,9 @@ const Home = () => {
             <Services></Services> */}
             {/* <SliderVideo></SliderVideo> */}
             {/* <MyChart></MyChart> */}
+
+            <PopularService></PopularService>
+
             <PopularVideos></PopularVideos>
 
             <Accordianhome></Accordianhome>
