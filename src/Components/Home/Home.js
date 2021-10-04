@@ -24,13 +24,13 @@ const Home = () => {
             {/* <SliderVideo></SliderVideo> */}
             {/* <MyChart></MyChart> */}
 
-            <h1> Our  Popular Services </h1>
+            <h1 className="mb-4 mt-4 text-warning"> Our  Popular Services </h1>
             <PopularService></PopularService>
 
             <PopularVideos></PopularVideos>
 
 
-            <h1> FAQ - Frequently Ask Questions </h1>
+            <h1 className="mb-4 mt-4 text-warning"> FAQ - Frequently Ask Questions </h1>
             <Accordianhome></Accordianhome>
 
 

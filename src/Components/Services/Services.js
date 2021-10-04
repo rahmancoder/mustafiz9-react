@@ -15,7 +15,7 @@ const Services = () => {
 
     return (
         <div className="m-5">
-            <h1>This is Services Components</h1>
+            <h1 className="text-warning"> Our Services </h1>
 
 
             <div className="row m-3">

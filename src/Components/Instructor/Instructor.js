@@ -18,7 +18,7 @@ const Instructor = () => {
 
     return (
         <div>
-            <h1> Our Instructor</h1>
+            <h1 className="text-warning"> Our Instructor</h1>
 
             <div className="row m-3">
 

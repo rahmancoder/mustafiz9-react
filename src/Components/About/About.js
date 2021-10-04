@@ -4,9 +4,17 @@ import Instructor from '../Instructor/Instructor';
 const About = () => {
     return (
         <div className="m-5">
-            <h1>This is About components</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, labore, aut, ut harum deleniti id aliquid praesentium nostrum ea dicta eligendi. Ut ratione pariatur eius perspiciatis suscipit ipsam obcaecati saepe voluptate natus, facilis in. Voluptatibus quam vel ducimus iusto ullam sequi enim rem commodi soluta fugit culpa, atque molestiae tempora odit sint mollitia facilis officia sunt laboriosam possimus sed veniam aperiam perferendis optio? Fugiat deserunt laborum nulla eos amet suscipit sapiente nam possimus error incidunt vero est, repellat nesciunt perspiciatis quod similique odio pariatur, quaerat tenetur modi iste fuga. At excepturi officia architecto optio unde exercitationem quo repellat sunt inventore dicta dignissimos maxime harum numquam suscipit magni, dolorem deserunt! Sed doloribus quas, assumenda accusantium dignissimos, architecto minus nisi odio aliquam officiis, accusamus repudiandae. Doloremque eligendi qui earum nisi cupiditate enim. Accusamus tenetur accusantium atque corporis temporibus ex unde at nisi delectus, sit quaerat sed, iste aliquam recusandae assumenda expedita doloremque!</p>
+            <h1 className="text-warning"> About Our Company</h1>
+            <p>
+                Hey, This Company is Mainly for Educational Purpose. Basic Engineering Topics will be covered.
+                Both Theoretical and Practical Knowledge will be discussed parallelly. We will try to deep down in Every topics.
+                If you guys have any problem please  let me know through comments or email and share your idea ,how you guys are benefited after watching the video lecture. Thank you.
+                Here, Computer Science and Engineering Topics and Electrical Engineering Topics also be Published regularly.
 
+                Deep learning is a subset of machine learning, which in turn is a subset of artificial intelligence, but the origins of these names arose from an interesting history. In addition, there are fascinating technical characteristics that can differentiate deep learning from other types of machine learning...essential working knowledge for anyone with ML, DL, or AI in their skillset.
+
+                If you are looking to improve your skill set or steer business/research strategy in 2021, you may come across articles decrying a skills shortage in deep learning. A few years ago, you would have read the same about a shortage of professionals with machine learning skills, and just a few years before that the emphasis would have been on a shortage of data scientists skilled in “big data.”
+            </p>
             <Instructor></Instructor>
         </div>
     );

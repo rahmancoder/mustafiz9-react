@@ -7,18 +7,18 @@ const Allcourses = (props) => {
     const { picture, course_name, price, course_instructor, about } = props.mustafiz || {};
     return (
         <div className="col-md-4 mt-4 ">
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem', height: '100%' }}>
                 <Card.Img variant="top" src={picture} />
                 <Card.Body>
-                    <Card.Title>Course {course_name}</Card.Title>
+                    <Card.Title> <span className="text-warning"> Course Name:-</span> {course_name}</Card.Title>
                     <Card.Text>
 
 
-                        ABout: {about}
+                        <span className="text-info"> About Course:-</span> : {about}
                     </Card.Text>
-                    <Card.Title>Price ${price}</Card.Title>
-                    <Card.Title>Instructor Name: {course_instructor}</Card.Title>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Card.Title><span className="text-danger font-weight-bold"> Price $-</span>{price}</Card.Title>
+                    <Card.Title><span className="text-danger font-weight-bold"> Instructor Name:-</span> {course_instructor}</Card.Title>
+                    <Button variant="primary">Buy Course</Button>
                 </Card.Body>
             </Card>
         </div>

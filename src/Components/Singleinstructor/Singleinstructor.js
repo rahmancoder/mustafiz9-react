@@ -19,7 +19,7 @@ const Singleinstructor = (props) => {
                     </Card.Text>
                     <Card.Title>Experience:{Experience}</Card.Title>
 
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="info">More Infromation</Button>
                 </Card.Body>
             </Card>
         </div>
